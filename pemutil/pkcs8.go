@@ -44,8 +44,7 @@ type publicKeyInfo struct {
 // Based on https://github.com/youmark/pkcs8
 // MIT license
 type prfParam struct {
-	Algo      asn1.ObjectIdentifier
-	NullParam asn1.RawValue
+	Algo asn1.ObjectIdentifier
 }
 
 type pbkdf2Params struct {
